@@ -9,6 +9,6 @@
     $txt = "You have recieved an email from ".$Name.".\n\n".$Message;
     
     mail($mailTo, $txt, $headers);
-    header("Location: index.html?mailsend");
+    header("Location: index.php?mailsend");
   
   >
