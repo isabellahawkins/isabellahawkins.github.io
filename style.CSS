@@ -19,6 +19,10 @@ body, html {
   min-height: 100%;
 }
 
+iframe {
+  right-padding: 30px;
+}
+
 /* Second image (Portfolio) */
 .bgimg-2 {
   background-image: url('Work/0327.JPG');
